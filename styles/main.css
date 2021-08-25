@@ -116,8 +116,7 @@ body {
 }
 
 .barralateral__icons {
-  display: -ms-grid;
-  display: grid;
+  display: none;
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 100px;
@@ -440,7 +439,7 @@ body {
   background-color: #f3f3f3;
   border-radius: 25px;
   margin: 5px auto;
-  height: 45px;
+  height: 44px;
   width: 90%;
 }
 
@@ -463,12 +462,20 @@ body {
 .rightbar__title {
   width: 90%;
   margin: 0 auto;
-  text-align: center;
   background-color: #f3f3f3;
-  padding-top: 20px;
-  font-size: 12px;
-  border-radius: 25px 25px 0 0;
   margin-top: 65px;
+  border-radius: 25px 25px 0 0;
+}
+
+.rightbar__title--margin {
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.rightbar__title--marginandbot {
+  margin-bottom: 30px;
 }
 
 .rightbar__news {
@@ -564,5 +571,117 @@ body {
 .rightbar__showmorecontent a {
   text-decoration: none;
   color: #2e90e0;
+}
+
+.rightbar__whofollow {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  border-radius: 25px;
+}
+
+.rightbar__follow-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.rightbar__follow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 75%;
+      grid-template-columns: 25% 75%;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.rightbar__follow:last-child {
+  margin-bottom: 0px;
+}
+
+.rightbar__follow-infos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+}
+
+.rightbar__box1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.rightbar__box1 h2 {
+  font-size: 16px;
+}
+
+.rightbar__box1 p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.rightbar__box2 button {
+  padding: 10px 25px;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.rightbar__terms {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.rightbar__terms-content {
+  margin-left: 15px;
+}
+
+.rightbar__term1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 38% 30% 32%;
+      grid-template-columns: 38% 30% 32%;
+  font-size: 13px;
+  color: #536471;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.rightbar__term1 p:hover {
+  text-decoration: underline;
+}
+
+.rightbar__term2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 31% 20% 1fr 1fr;
+      grid-template-columns: 31% 20% 1fr 1fr;
+  font-size: 13px;
+  color: #536471;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.rightbar__term2 p:hover {
+  text-decoration: underline;
+}
+
+.rightbar__term3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  font-size: 13px;
+  color: #536471;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.rightbar__term3 p:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
