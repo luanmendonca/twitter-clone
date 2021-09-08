@@ -1,0 +1,18 @@
+.newpost {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: fixed;
+    right: 47px;
+    bottom: 170px;
+    cursor: pointer;
+
+    @media(min-width:1000px){
+        display: none;
+    }
+}
+
+
+
+
+

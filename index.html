@@ -3,13 +3,324 @@
 <head>
     <meta charset="UTF-8">
     <title>Home / Twitter</title>
-    <link rel="shortcut icon" href="twitter.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/twitter.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header class="c-header">
-        <img class="c-header__item c-header--size" src="https://scontent.fsdu8-2.fna.fbcdn.net/v/t1.6435-9/47578518_1952131451571687_1093267462587154432_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=prmdRBypt7wAX8yPbSs&_nc_ht=scontent.fsdu8-2.fna&oh=b3c8a77f109f297d11d0fe33a06824c2&oe=6148CC99" alt="foto-user">
-        <h1 class="c-header__item">Home</h1>
-        <img class="c-header__item c-header--size" src="https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/877/posts/30828/image/8-drawing-a-star-four-points-the-star-is-complete.jpg" alt="star">
-    </header>
+   <div class="allcontent">
+
+   
+    <div class="barralateral">
+        <div class="barralateral__content">
+            <div class="barralateral__icons">
+                <img class="barralateral--img-resize" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-6.png" alt="">
+                <img src="assets/outline_home_black_24dp.png" alt="">
+                <img src="assets/outline_tag_black_24dp.png" alt="">
+                <img src="assets/outline_notifications_black_24dp.png" alt="">
+                <img src="assets/outline_email_black_24dp.png" alt="">
+                <img src="assets/outline_person_outline_black_24dp.png" alt="">
+                <img src="assets/outline_pending_black_24dp.png" alt="">
+                <img class="barralateral--img-newborder" src="assets/novapublicacao.png" alt="">  
+            </div>
+            <div class="barralateral__user">
+                <img class="barralateral__user--resize" src="https://pbs.twimg.com/profile_images/1364332970719461378/7KfCQc48_400x400.jpg" alt="">
+            </div>
+        </div>
+            
+        
+    
+    </div>
+    
+    <div class="midcontent">   
+        <header class="c-header">
+            <img class="c-header__item c-header__img-size c-header__img-size--center" src="https://pbs.twimg.com/profile_images/1364332970719461378/7KfCQc48_400x400.jpg" alt="foto-user">
+            <h1 class="c-header__item--home">Home</h1>
+            <img class="c-header__item c-header__img-size c-header__img-size--right " src="https://modadecor.biz/wp-content/uploads/2012/05/desenhos-de-estrela-para-colorir-3-470x510.gif" alt="star">
+        </header>
+
+
+            <div class="thefeed">
+                <div class="thefeed__writepost">
+                   
+                    <div class="thefeed__user">
+                        <img class="thefeed__user--img-resize" src="https://pbs.twimg.com/profile_images/1364332970719461378/7KfCQc48_400x400.jpg" alt="">
+                    </div>
+
+                    <div class="thefeed__words">
+                        <h1 class="thefeed__h1">What's happening?</h1>
+                        <div class="thefeed__icons-writepost">
+                            <img class="thefeed__words-item" src="assets/outline_image_black_24dp.png" alt="">
+                            <img class="thefeed__words-item" src="assets/outline_gif_box_black_24dp.png" alt="">
+                            <img class="thefeed__words-item" src="assets/outline_align_horizontal_left_black_24dp.png" alt="">
+                            <img class="thefeed__words-item" src="assets/outline_sentiment_satisfied_black_24dp.png" alt="">
+                            <img class="thefeed__words-item" src="assets/outline_event_black_24dp.png" alt="">
+                            <img class="thefeed__words-item-resize" src="assets/tweet.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="feed">
+                    <div class="feed__photo">
+                        <img class="feed__img" src="https://s2.glbimg.com/V1mnDD9nPouuoWFZsRxmwctZEdw=/0x0:1600x1067/924x0/smart/filters:strip_icc()/s.glbimg.com/es/ge/f/original/2016/07/05/27860898082_0af6c674ed_o_1.jpg" alt="">
+                    </div>
+                    <div class="feed__post">
+                        <div class="feed__top">
+                            <h1 class="feed__name">PAIN KamiKat</h1>
+                            <h1 class="feed__user">@KamiKat_Pain • 32min</h1>
+                            <img class="feed__more" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADY2Njs7Ox+fn46OjpPT0/c3Nzg4OCXl5eHh4f09PTp6enHx8efn5+RkZHBwcGlpaVkZGQgICCxsbEaGhoTExM/Pz/Pz8+3t7d3d3cqKipcXFxpaWlGRkYwMDBjc1dTAAAC90lEQVR4nO3ba3OqMBCAYSJqEbzgXbG1//9fVvB0xALJZu3MmSbv8z0721w3mCYJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/pA0O89Web6a7Ubpb8Us5ovlLWa+Wi7mxW8FTUe7e6LnzCPRUz41LceqfD2hbL3ZtmJuN+vs5ZhFWR3biU7zk6jZ7GI69tVr+ZTTbkwzLV+KmVX7bszLzDUY6bgnlcb7SJ3LrieVe8ft1DFH70OJjq2zdT3UrGmqm6uniSXmRDSvOorBgaitB9tlV1s7Yw6aaZXbY5pcEbM82GNeB9bU2ZGLJp306Ix59N6sXZ12c+5rN3O3u61Gv1zeJDHNm1/QwRXYNlN1TG3qk8tJFtN4Lca+bblHZ7qthMn4jKJsBGseoygawdrquZ11E332Ic0llcc04rX4IY/5tKVKp1NjKUzGvck8HIUxlz6JtiZ/0VPGWMjOfuHC/ke2S4+8Yl4eB7j1/OyaSJLxmhZGuNvYioceY13PGNk89UxG1G1ec7T2PdscpUwPd/22847prlEL75jXe0Pf+WR6z9MfhortYXtnTFFN8uw+98UnTIsrmVIR01n1KmI2p3emaNhf97UIC48nrnJJUDd3Zbqxd2aj6jXjuGVreq1ZT/77TM1ehHiUSC3D97qaT4n0cNVsUA37otmoYm6sMTVL29TbvrLh2JZMsXUH6LG1HkKeZcm30v8UvbMuxLkuppnbgqqWYV2dVLqGn7b+XuhimoVtXnzqYlZeN4A2W38r54W1GtTOi2Pid614sG3t4uv0DytLTN0BdLtgJI7PVoNs13K/i9OD7Qol/2Dw7KAphRp/5S80EYxh+Osw/L00/PMw/Jom/Lo0/LtF+PfDCO744X+nCf9bWwTfS8P/5h3B7xbh//YUwe+H4f8GHMHv+BG8xYjgPU0Eb6IieNcWwdvEJPz3pUkEb4ST8N95NwJ/q38X+P9bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P/7AsD5N9DOK9sbAAAAAElFTkSuQmCC" alt="">
+                        </div>
+        
+                        <div class="feed__feed">
+                            <h2>Minha placa de video ta dando problema ja tem 2 horas, assim que conseguir arrumar isso faço live tropa, pessoal da Loud ta me ajudando</h2>
+                        </div>
+                        
+                        <div class="feed__bottom">
+                            <img class="feed__botom--resize" src="assets/outline_mode_comment_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_repeat_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_favorite_border_black_24dp.png" alt="">
+                            <img class="feed__bottom--right" src="assets/outline_file_upload_black_24dp.png" alt="">
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="feed">
+                    <div class="feed__photo">
+                        <img class="feed__img" src="https://s2.glbimg.com/iaiGJEJUPLm9Gk-61vLiuMMoGf8=/0x0:1468x974/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2018/P/c/c2ICdQSnWZ2mS5RZf0ug/captura-de-tela-2018-08-05-as-7.19.35-am.png" alt="">
+                    </div>
+                    <div class="feed__post">
+                        <div class="feed__top">
+                            <h1 class="feed__name">PAIN BRTT</h1>
+                            <h1 class="feed__user">@PAITT_Pain • 50min</h1>
+                            <img class="feed__more" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADY2Njs7Ox+fn46OjpPT0/c3Nzg4OCXl5eHh4f09PTp6enHx8efn5+RkZHBwcGlpaVkZGQgICCxsbEaGhoTExM/Pz/Pz8+3t7d3d3cqKipcXFxpaWlGRkYwMDBjc1dTAAAC90lEQVR4nO3ba3OqMBCAYSJqEbzgXbG1//9fVvB0xALJZu3MmSbv8z0721w3mCYJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/pA0O89Web6a7Ubpb8Us5ovlLWa+Wi7mxW8FTUe7e6LnzCPRUz41LceqfD2hbL3ZtmJuN+vs5ZhFWR3biU7zk6jZ7GI69tVr+ZTTbkwzLV+KmVX7bszLzDUY6bgnlcb7SJ3LrieVe8ft1DFH70OJjq2zdT3UrGmqm6uniSXmRDSvOorBgaitB9tlV1s7Yw6aaZXbY5pcEbM82GNeB9bU2ZGLJp306Ix59N6sXZ12c+5rN3O3u61Gv1zeJDHNm1/QwRXYNlN1TG3qk8tJFtN4Lca+bblHZ7qthMn4jKJsBGseoygawdrquZ11E332Ic0llcc04rX4IY/5tKVKp1NjKUzGvck8HIUxlz6JtiZ/0VPGWMjOfuHC/ke2S4+8Yl4eB7j1/OyaSJLxmhZGuNvYioceY13PGNk89UxG1G1ec7T2PdscpUwPd/22847prlEL75jXe0Pf+WR6z9MfhortYXtnTFFN8uw+98UnTIsrmVIR01n1KmI2p3emaNhf97UIC48nrnJJUDd3Zbqxd2aj6jXjuGVreq1ZT/77TM1ehHiUSC3D97qaT4n0cNVsUA37otmoYm6sMTVL29TbvrLh2JZMsXUH6LG1HkKeZcm30v8UvbMuxLkuppnbgqqWYV2dVLqGn7b+XuhimoVtXnzqYlZeN4A2W38r54W1GtTOi2Pid614sG3t4uv0DytLTN0BdLtgJI7PVoNs13K/i9OD7Qol/2Dw7KAphRp/5S80EYxh+Osw/L00/PMw/Jom/Lo0/LtF+PfDCO744X+nCf9bWwTfS8P/5h3B7xbh//YUwe+H4f8GHMHv+BG8xYjgPU0Eb6IieNcWwdvEJPz3pUkEb4ST8N95NwJ/q38X+P9bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P/7AsD5N9DOK9sbAAAAAElFTkSuQmCC" alt="">
+                        </div>
+        
+                        <div class="feed__feed">
+                            <h2>Algo que me ajudou muito nesses dois anos de home office foi trabalhar do laptop. 
+                                Foi algo que rolou sem querer, minha mesa de som não se da bem com meu PC principal, então o CBLOL eu faço do note. 
+                                E essa separação acabou sendo muito boa. Vocês acharam algo do tipo?</h2>
+                        </div>
+                        
+                        <div class="feed__bottom">
+                            <img class="feed__botom--resize" src="assets/outline_mode_comment_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_repeat_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_favorite_border_black_24dp.png" alt="">
+                            <img class="feed__bottom--right" src="assets/outline_file_upload_black_24dp.png" alt="">
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="feed">
+                    <div class="feed__photo">
+                        <img class="feed__img" src="https://yt3.ggpht.com/ytc/AKedOLTi4CX5nBLyxWITMp0RknolCISTrCAugv0_9daaKg=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="feed__post">
+                        <div class="feed__top">
+                            <h1 class="feed__name">TINOWNS</h1>
+                            <h1 class="feed__user">@Tin_PAIN • 1h</h1>
+                            <img class="feed__more" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADY2Njs7Ox+fn46OjpPT0/c3Nzg4OCXl5eHh4f09PTp6enHx8efn5+RkZHBwcGlpaVkZGQgICCxsbEaGhoTExM/Pz/Pz8+3t7d3d3cqKipcXFxpaWlGRkYwMDBjc1dTAAAC90lEQVR4nO3ba3OqMBCAYSJqEbzgXbG1//9fVvB0xALJZu3MmSbv8z0721w3mCYJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/pA0O89Web6a7Ubpb8Us5ovlLWa+Wi7mxW8FTUe7e6LnzCPRUz41LceqfD2hbL3ZtmJuN+vs5ZhFWR3biU7zk6jZ7GI69tVr+ZTTbkwzLV+KmVX7bszLzDUY6bgnlcb7SJ3LrieVe8ft1DFH70OJjq2zdT3UrGmqm6uniSXmRDSvOorBgaitB9tlV1s7Yw6aaZXbY5pcEbM82GNeB9bU2ZGLJp306Ix59N6sXZ12c+5rN3O3u61Gv1zeJDHNm1/QwRXYNlN1TG3qk8tJFtN4Lca+bblHZ7qthMn4jKJsBGseoygawdrquZ11E332Ic0llcc04rX4IY/5tKVKp1NjKUzGvck8HIUxlz6JtiZ/0VPGWMjOfuHC/ke2S4+8Yl4eB7j1/OyaSJLxmhZGuNvYioceY13PGNk89UxG1G1ec7T2PdscpUwPd/22847prlEL75jXe0Pf+WR6z9MfhortYXtnTFFN8uw+98UnTIsrmVIR01n1KmI2p3emaNhf97UIC48nrnJJUDd3Zbqxd2aj6jXjuGVreq1ZT/77TM1ehHiUSC3D97qaT4n0cNVsUA37otmoYm6sMTVL29TbvrLh2JZMsXUH6LG1HkKeZcm30v8UvbMuxLkuppnbgqqWYV2dVLqGn7b+XuhimoVtXnzqYlZeN4A2W38r54W1GtTOi2Pid614sG3t4uv0DytLTN0BdLtgJI7PVoNs13K/i9OD7Qol/2Dw7KAphRp/5S80EYxh+Osw/L00/PMw/Jom/Lo0/LtF+PfDCO744X+nCf9bWwTfS8P/5h3B7xbh//YUwe+H4f8GHMHv+BG8xYjgPU0Eb6IieNcWwdvEJPz3pUkEb4ST8N95NwJ/q38X+P9bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P/7AsD5N9DOK9sbAAAAAElFTkSuQmCC" alt="">
+                        </div>
+        
+                        <div class="feed__feed">
+                            <h2>Breaking: The 2021 League of Legends World Championship is expected to be moved from China to Europe, an official announcement expected in the forthcoming days</h2>
+                        </div>
+                        
+                        <div class="feed__bottom">
+                            <img class="feed__botom--resize" src="assets/outline_mode_comment_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_repeat_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_favorite_border_black_24dp.png" alt="">
+                            <img class="feed__bottom--right" src="assets/outline_file_upload_black_24dp.png" alt="">
+                        </div>
+        
+                    </div>
+                </div>
+
+                <div class="feed">
+                    <div class="feed__photo">
+                        <img class="feed__img" src="https://pbs.twimg.com/profile_images/1356653288494686208/t87yVXqb.jpg" alt="">
+                    </div>
+                    <div class="feed__post">
+                        <div class="feed__top">
+                            <h1 class="feed__name">PAIN ROBS</h1>
+                            <h1 class="feed__user">@EOROBS_PAIN • 2h</h1>
+                            <img class="feed__more" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8AAADY2Njs7Ox+fn46OjpPT0/c3Nzg4OCXl5eHh4f09PTp6enHx8efn5+RkZHBwcGlpaVkZGQgICCxsbEaGhoTExM/Pz/Pz8+3t7d3d3cqKipcXFxpaWlGRkYwMDBjc1dTAAAC90lEQVR4nO3ba3OqMBCAYSJqEbzgXbG1//9fVvB0xALJZu3MmSbv8z0721w3mCYJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/pA0O89Web6a7Ubpb8Us5ovlLWa+Wi7mxW8FTUe7e6LnzCPRUz41LceqfD2hbL3ZtmJuN+vs5ZhFWR3biU7zk6jZ7GI69tVr+ZTTbkwzLV+KmVX7bszLzDUY6bgnlcb7SJ3LrieVe8ft1DFH70OJjq2zdT3UrGmqm6uniSXmRDSvOorBgaitB9tlV1s7Yw6aaZXbY5pcEbM82GNeB9bU2ZGLJp306Ix59N6sXZ12c+5rN3O3u61Gv1zeJDHNm1/QwRXYNlN1TG3qk8tJFtN4Lca+bblHZ7qthMn4jKJsBGseoygawdrquZ11E332Ic0llcc04rX4IY/5tKVKp1NjKUzGvck8HIUxlz6JtiZ/0VPGWMjOfuHC/ke2S4+8Yl4eB7j1/OyaSJLxmhZGuNvYioceY13PGNk89UxG1G1ec7T2PdscpUwPd/22847prlEL75jXe0Pf+WR6z9MfhortYXtnTFFN8uw+98UnTIsrmVIR01n1KmI2p3emaNhf97UIC48nrnJJUDd3Zbqxd2aj6jXjuGVreq1ZT/77TM1ehHiUSC3D97qaT4n0cNVsUA37otmoYm6sMTVL29TbvrLh2JZMsXUH6LG1HkKeZcm30v8UvbMuxLkuppnbgqqWYV2dVLqGn7b+XuhimoVtXnzqYlZeN4A2W38r54W1GtTOi2Pid614sG3t4uv0DytLTN0BdLtgJI7PVoNs13K/i9OD7Qol/2Dw7KAphRp/5S80EYxh+Osw/L00/PMw/Jom/Lo0/LtF+PfDCO744X+nCf9bWwTfS8P/5h3B7xbh//YUwe+H4f8GHMHv+BG8xYjgPU0Eb6IieNcWwdvEJPz3pUkEb4ST8N95NwJ/q38X+P9bAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P/7AsD5N9DOK9sbAAAAAElFTkSuQmCC" alt="">
+                        </div>
+        
+                        <div class="feed__feed">
+                            <h2>Que sacanagem mano !</h2>
+                        </div>
+                        
+                        <div class="feed__bottom">
+                            <img class="feed__botom--resize" src="assets/outline_mode_comment_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_repeat_black_24dp.png" alt="">
+                            <img class="feed__botom--resize" src="assets/outline_favorite_border_black_24dp.png" alt="">
+                            <img class="feed__bottom--right" src="assets/outline_file_upload_black_24dp.png" alt="">
+                        </div>
+        
+                    </div>
+                </div>
+
+            </div>
+
+            <img class ="newpost" src="assets/novapublicacao.png" alt="">
+
+        <footer class="c-footer">
+            <img class="c-footer__item" src="assets/outline_home_black_24dp.png" alt="home-footer">
+            <img class="c-footer__item" src="assets/outline_search_black_24dp.png" alt="lupa-footer">
+            <img class="c-footer__item" src="assets/outline_notifications_black_24dp.png" alt="sino-footer">
+            <img class="c-footer__item" src="assets/outline_email_black_24dp.png" alt="carta-footer">
+            
+        </footer>
+
+    </div>
+
+    <div class="rightbar">
+        
+        <div class="rightbar__search1">
+            <div class="rightbar__search">
+                <img src="assets/outline_search_black_24dp.png" alt="">
+                <input type="text" placeholder="Search Twitter">
+            </div>
+        </div>
+            
+
+        <div class="rightbar__title">
+                <div class="rightbar__title--margin">
+                    <h1>What's happening</h1>
+                </div>
+        </div>
+
+        <div class="rightbar__news">
+            <div class="rightbar__text">
+                <p class="rightbar__text--grey">Music 2 hours • ago</p>
+                <p class="rightbar__text--bold">The latest news from Afghanistan as the Taliban take control of the country</p>
+            </div>
+
+            <div class="rightbar__image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRArlTJu_ShK3Y38C02ROiU7DYOH9Z0uJ57Kg&usqp=CAU" alt="">
+            </div>
+        </div>
+
+        <div class="rightbar__news2">
+            <div class="rightbar__new2">
+                <h1 class="rightbar__new2--resize">#OUniformeDoBrasil</h1>
+                <p class="rightbar__new2--grey">Apoiadora oficial do CPB</p>
+                <p class="rightbar__new2--grey rightbar__new2--litle">Promoted by Havaianas</p>
+            </div>
+            
+        </div>
+
+        <div class="rightbar__news3">
+            <div class="rightbar__new3">
+                <h1 class="rightbar__new3--resize">Trending in Brazil</h1>
+                <p class="rightbar__new3--black">Viego</p>
+                <p class="rightbar__new3--resize">13.2K Tweets </p>
+            </div>
+        </div>
+
+        <div class="rightbar__news">
+            <div class="rightbar__text">
+                <p class="rightbar__text--grey">Paralympics · This morning</p>
+                <p class="rightbar__text--bold">É OURO! Nadador Gabriel Aranha leva primeira medalha dourada do Brasil na Paralimpíada</p>
+            </div>
+
+            <div class="rightbar__image">
+                <img src="http://s.glbimg.com/es/ge/f/original/2013/07/02/100_6490.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="rightbar__showmore">  
+            <div class="rightbar__showmorecontent">
+                <a href="">Show more</a>
+            </div>
+        </div>
+        
+        <div class="rightbar__whofollow">
+                <div class="rightbar__title--margin rightbar__title--marginandbot">
+                    <h1>Who to follow</h1>
+                </div>
+            <div class="rightbar__follow-content">
+                <div class="rightbar__follow">
+                    <div class="rightbar__follow-img">
+                        <img src="https://noticias.maisesports.com.br/wp-content/uploads/2020/03/ranger-flamengo-cblol.jpg" alt="">
+                    </div>
+                    <div class="rightbar__follow-infos">
+                        <div class="rightbar__box1">
+                            <h2>Felipe Brombila</h2>
+                            <p>@rangerlol</p>
+                        </div>
+    
+                        <div class="rightbar__box2">
+                            <button>Follow</button>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="rightbar__follow">
+                    <div class="rightbar__follow-img">
+                        <img src="https://pbs.twimg.com/profile_images/1407056871509405700/lYbcDAqE_400x400.jpg" alt="">
+                    </div>
+                    <div class="rightbar__follow-infos">
+                        <div class="rightbar__box1">
+                            <h2>Gabriel Henud</h2>
+                            <p>@revoltalol</p>
+                        </div>
+    
+                        <div class="rightbar__box2">
+                            <button>Follow</button>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="rightbar__follow">
+                    <div class="rightbar__follow-img">
+                        <img src="https://pbs.twimg.com/profile_images/1391916037742944256/IwfVZrah_400x400.jpg" alt="">
+                    </div>
+                    <div class="rightbar__follow-infos">
+                        <div class="rightbar__box1">
+                            <h2>Micael</h2>
+                            <p>@micaOlol</p>
+                        </div>
+    
+                        <div class="rightbar__box2">
+                            <button>Follow</button>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="rightbar__showmorecontent">
+                <a href="">Show more</a>
+            </div>
+        </div>
+
+        <div class="rightbar__terms">
+            <div class="rightbar__terms-content">
+                <div class="rightbar__term1">
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
+                </div>
+    
+                <div class="rightbar__term2">
+                    <p>Cookie Policy</p>
+                    <p>Ads Info</p>
+                    <p>More...</p>
+                </div>
+    
+                <div class="rightbar__term3">
+                    <p>© 2021 Twitter, Inc.</p>
+                </div>
+            </div>
+        </div>
+        
+            
+ 
+    </div>
+</div>
 </body>
 </html>
